@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Photo Collage</title>
+    <style>
+        body{
+            background-color: rgb(86, 82, 82);
+        }
+        .main{
+            position: relative;
+            height: 400px;
+            width: 600px;
+            margin-top: 200px;
+            margin-left: 500px;
+        }
+        .ia{
+            height: 150px;
+            width: 150px;
+            border: 8px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            z-index: 5;
+            position: absolute;
+            top: 180px;
+            left: 300px;
+            /* top: 50%;
+            left: 60%;
+            transform: translate(-70%); */
+        }
+        .ib{
+            height: 150px;
+            width: 150px;
+            border: 8px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            z-index: 6;
+            position: absolute;
+            top: 180px;
+            left: 200px;
+            /* top: 50%;
+            left: 50%;
+            transform: translate(-10%);  */
+        }
+        .ic{
+            height: 150px;
+            width: 150px;
+            border: 8px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            z-index: 7;
+            position: absolute;
+            top: 180px;
+            left: 110px;
+            /* top: 50%;
+            left: 50%;
+            transform: translate(-80%);  */
+        }
+        .id{
+            height: 150px;
+            width: 150px;
+            border: 8px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            z-index: 8;
+            position: absolute;
+            top: 180px;
+            left: 20px;
+            /* top: 50%;
+            left: 50%;
+            transform: translate(-145%);  */
+        }
+        .ie{
+            height: 150px;
+            width: 150px;
+            border: 8px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            z-index: 9;
+            position: absolute;
+            top: 180px;
+            left: -80px;
+            /* top: 50%;
+            left: 50%;
+            transform: translate(-210%);  */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img class="ia" src="person5.png" alt="">
+        <img src="person4.jpg" alt="" class="ib">
+        <img src="person3.jpg" alt="" class="ic">
+        <img src="person2.jpg" alt="" class="id">
+        <img src="person1.jpg" alt="" class="ie">
+    </div>
+</body>
+</html>
